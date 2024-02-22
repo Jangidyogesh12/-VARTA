@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import ChatBot from "./component/chatbot/ChatBot";
+import Main from "./component/main/Main";
+import Navbar from "./component/navbar/Navbar";
+import Sidebar from "./component/sidebar/Sidebar";
+import { useState } from "react";
 function App() {
+  const [sidebarState, setSidebarState] = useState(true);
+  const [query, setQuery] = useState([]);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="flex">
+        <Sidebar
+          sidebarState={sidebarState}
+          setSidebarState={setSidebarState}
+        />
+      </div>
+      <Main sidebarState={sidebarState} query={query} />
+      <Navbar sidebarState={sidebarState} />
+      <ChatBot sidebarState={sidebarState} query={query} setQuery={setQuery} />
     </div>
   );
 }

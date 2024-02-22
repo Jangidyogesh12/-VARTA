@@ -1,0 +1,25 @@
+#message {
+  position: relative;
+  width: calc(0.6 * 100vw);
+}
+
+.chat_container {
+  padding-bottom: 30px;
+}
+
+#scroll {
+  background-color: rgb(24, 23, 23);
+  width: calc(2 / 3 * 100vw);
+  z-index: 0;
+  /* left: calc(1 / 6 * 100vw); */
+}
+
+.chat_container {
+  width: calc(2 / 3 * 100vw);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  /* border: solid green; */
+}
