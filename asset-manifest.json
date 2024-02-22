@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/-VARTA/static/css/main.55af5e85.css",
+    "main.js": "/-VARTA/static/js/main.8bc28c60.js",
+    "static/js/453.cbc17eb4.chunk.js": "/-VARTA/static/js/453.cbc17eb4.chunk.js",
+    "static/media/Varta.png": "/-VARTA/static/media/Varta.6e61aa158ed17e69b5d2.png",
+    "static/media/send_button.svg": "/-VARTA/static/media/send_button.64a8259db71613d512c63d24fdb902b2.svg",
+    "index.html": "/-VARTA/index.html",
+    "main.55af5e85.css.map": "/-VARTA/static/css/main.55af5e85.css.map",
+    "main.8bc28c60.js.map": "/-VARTA/static/js/main.8bc28c60.js.map",
+    "453.cbc17eb4.chunk.js.map": "/-VARTA/static/js/453.cbc17eb4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55af5e85.css",
+    "static/js/main.8bc28c60.js"
+  ]
+}
